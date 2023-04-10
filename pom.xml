@@ -14,5 +14,6 @@
 	</properties>
 	<modules>
 		<module>boot-dependencies</module>
+		<module>boot-parent</module>
 	</modules>
 </project>
