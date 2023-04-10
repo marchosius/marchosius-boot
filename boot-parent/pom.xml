@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xmlns="http://maven.apache.org/POM/4.0.0"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<artifactId>boot-dependencies</artifactId>
+		<groupId>io.github.marchosius</groupId>
+		<relativePath>../boot-dependencies</relativePath>
+		<version>${revision}</version>
+	</parent>
+
+	<artifactId>boot-parent</artifactId>
+	<version>${revision}</version>
+	<packaging>pom</packaging>
+	<description>Marchosius Parent</description>
+	<url>https://github.com/marchosius/marchosius-boot</url>
+
+	<properties>
+		<main.basedir>${basedir}/../..</main.basedir>
+		<git.url>https://github.com/marchosius/marchosius-boot</git.url>
+		<git.connection>scm:git:git://github.com/marchosius/marchosius-boot.git</git.connection>
+		<git.developerConnection>scm:git:ssh://github.com/marchosius/marchosius-boot.git</git.developerConnection>
+		<java.version>17</java.version>
+		<resource.delimiter>@</resource.delimiter>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<scm>
+		<url>${git.url}</url>
+		<connection>${git.connection}</connection>
+		<developerConnection>${git.developerConnection}</developerConnection>
+	</scm>
+
+	<issueManagement>
+		<system>Github</system>
+		<url>https://github.com/marchosius/marchosius-boot/issues</url>
+	</issueManagement>
+</project>
