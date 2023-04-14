@@ -82,7 +82,7 @@
 		<springdoc.version>1.6.15</springdoc.version>
 
 		<!-- bean mapper -->
-		<mapstruct.version>1.5.3.Final</mapstruct.version>
+		<mapstruct.version>1.5.4.Final</mapstruct.version>
 
 		<!-- workflow -->
 		<flowable.version>6.8.0</flowable.version>
