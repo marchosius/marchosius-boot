@@ -60,7 +60,7 @@
 		<!-- alibaba reference -->
 		<druid.version>1.2.17</druid.version>
 		<easyexcel.version>3.2.1</easyexcel.version>
-		<fastjson2.version>2.0.27</fastjson2.version>
+		<fastjson2.version>2.0.29</fastjson2.version>
 		<aliyun-sdk-core.version>4.6.3</aliyun-sdk-core.version>
 		<aliyun-sdk-oss.version>3.16.2</aliyun-sdk-oss.version>
 		<nacos-client.version>3.16.1</nacos-client.version>
