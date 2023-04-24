@@ -70,7 +70,7 @@
 		<guava.version>31.1-jre</guava.version>
 
 		<!-- tools -->
-		<hutool.version>5.8.16</hutool.version>
+		<hutool.version>5.8.18</hutool.version>
 		<okhttp.version>4.11.0</okhttp.version>
 		<opencsv.version>5.7.1</opencsv.version>
 		<snakeyaml.version>2.0</snakeyaml.version>
