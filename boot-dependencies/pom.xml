@@ -107,7 +107,7 @@
 		<javacv.version>1.5.8</javacv.version>
 
 		<!-- plugin version -->
-		<fabric8-docker-plugin.version>0.42.1</fabric8-docker-plugin.version>
+		<fabric8-docker-plugin.version>0.43.0</fabric8-docker-plugin.version>
 		<git-commit-id-plugin.version>5.0.0</git-commit-id-plugin.version>
 		<jib-maven-plugin.version>3.3.1</jib-maven-plugin.version>
 		<maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
