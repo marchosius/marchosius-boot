@@ -100,7 +100,7 @@
 		<logstash-logback-encoder.version>7.3</logstash-logback-encoder.version>
 
 		<!-- storage -->
-		<minio.version>8.5.2</minio.version>
+		<minio.version>8.5.4</minio.version>
 
 		<!-- native c++ -->
 		<javacpp.version>1.5.8</javacpp.version>
